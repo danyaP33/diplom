@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alarm_button"
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:backgroundTint="@color/white"
+        android:border_color="#009B77"
+        android:border_width="2dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textColor="#009B77"
+        android:textSize="55sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="575dp" />
+
+    <ListView
+        android:layout_width="416dp"
+        android:layout_height="392dp"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="99dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
